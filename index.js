@@ -17,7 +17,13 @@ function randomgenerate()
     if(special.checked)
         usable+="%$^&*()!@#";
     if(!capital.checked&&!number.checked&&!special.checked&&!small.checked)
-        window.alert("select the requsites");
+    {   window.alert("select the requsites");
+        return;
+    }      
+    if(isNaN(input.value)||input.value==null){
+        window.alert("select the length");
+        return;
+    }
     
     for(let i=0;i<input.value;i++)
     {    password+=usable[Math.floor(Math.random()*usable.length)];
