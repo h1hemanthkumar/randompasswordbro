@@ -5,6 +5,9 @@ body{
 #box
 {   text-align:center;
 }
+#output
+{   color:black;
+}
 button{
     padding:5px;
     color:white;
