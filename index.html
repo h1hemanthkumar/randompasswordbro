@@ -10,6 +10,18 @@
     <div id="box">
         <h1>Get Your Password</h1>
         <input type="text" id="output" readonly><br>
+        <h3>Enter Your requsites:</h3>
+        <br>
+        <div id="select">
+        <label for="alpha">Small Alphabets</label>
+        <input type="checkbox" id="alpha" name="same"><br>
+        <label for="alpha2">Large Alphabets</label>
+        <input type="checkbox" id="alpha2" name="same"><br>
+        <label for="Number">Numbers</label>
+        <input type="checkbox" id="Number" name="same"><br>
+        <label for="Specialchar">Special Character</label>
+        <input type="checkbox" id="Specialchar" name="same"><br></div>
+        <input type="Number"  min="1" id="input" placeholder="length of the password"><br>
         <button id="click" onclick="randomgenerate()">press</button>
         <script src="index.js"></script>
     </div>
