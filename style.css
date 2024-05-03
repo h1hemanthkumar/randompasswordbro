@@ -1,3 +1,21 @@
 body{
-    background-color:black;
+    background-color:rgba(2, 2, 2, 0.861);
+    color:white;
+}
+#box
+{   text-align:center;
+}
+button{
+    padding:5px;
+    color:white;
+    background-color:blue;
+    border-radius:50px;
+    margin-top:10px;
+    cursor:pointer;
+}
+button:hover
+{   background-color:rgb(0, 145, 255);
+    padding:6px;
+    color:red;
+    font-size:1em;
 }
